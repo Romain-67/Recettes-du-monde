@@ -29,3 +29,7 @@ Cela vous permettra de valider la compétence suivante :
 ## Authors
 
 - [@bryanParisot](https://github.com/BryanParisot)
+
+## Version
+
+Ver 0.1.0 : Added dynamic recipe cards displaying all the recipes from recette.json
