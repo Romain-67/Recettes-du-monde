@@ -77,3 +77,42 @@ header h1 {
 .recipe-card li {
   margin-bottom: 6px;
 }
+
+.recipe-button {
+  display: block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-button:hover {
+  background-color: #e37147;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  display: none;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #ff7f50;
+}

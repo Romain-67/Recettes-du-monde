@@ -32,4 +32,6 @@ Cela vous permettra de valider la compétence suivante :
 
 ## Version
 
+Ver 0.2.0 : Added Pop-up windows to fully display each recipe
+
 Ver 0.1.0 : Added dynamic recipe cards displaying all the recipes from recette.json
